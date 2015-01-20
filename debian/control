@@ -1,6 +1,6 @@
 Source: haskell-hello
 Maintainer: Michael Pearson <michaelpe@blinkbox.com>
-Build-Depends: debhelper (>= 8), haskell-platform, haskell-devscripts
+Build-Depends: debhelper (>= 8), haskell-platform
 Section: utils
 Priority: extra
 
