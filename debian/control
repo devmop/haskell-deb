@@ -1,0 +1,10 @@
+Source: haskell-hello
+Maintainer: Michael Pearson <michaelpe@blinkbox.com>
+Build-Depends: debhelper (>= 8), haskell-platform, haskell-devscripts
+Section: utils
+Priority: extra
+
+Package: haskell-hello
+Architecture: amd64
+Description: Hello!
+  Hello World
