@@ -3,12 +3,8 @@
 %:
 	dh $@
 
-# Prevent confusion between debian/rules build target and
-# gradle build directory
-.PHONY: build
-
-build:
-	dh build
-
 override_dh_auto_build:
 	cabal build
+
+override_dh_auto_configure:
+	cabal configure
